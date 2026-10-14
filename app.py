@@ -32,7 +32,7 @@ def get_libro(id):
 def add_libro():
     nuovo = request.get_json
     libri.append(nuovo)
-    return jsonify(nuovo), 201 # 201 risorsa creata su server
+    return jsonify(nuovo), 201 #fil 201 risorsa creata su server
 
 # impedisco che il programma venga avviato da un altro file
 if __name__ == "__main__":
