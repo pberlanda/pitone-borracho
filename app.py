@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 # dati finti (usiamo file di testo in formato JSON senza usare db)
 libri = [
-    {"id":1, "titolo": "L'uomo invisibile"},
-    {"id":2, "titolo": "1984"},
-    {"id":3, "titolo": "La metamorfosi"},
-    {"id":4, "titolo": "Io sono leggenda"},
-    {"id":5, "titolo": "Moby Dick"}
+    {"id":1, "titolo": "L'uomo invisibile", "autore": "H. G. Wells"},
+    {"id":2, "titolo": "1984", "autore": "George Orwell"},
+    {"id":3, "titolo": "La metamorfosi", "autore": "Franz Kafka"},
+    {"id":4, "titolo": "Io sono leggenda", "autore": "James Matheson"},
+    {"id":5, "titolo": "Moby Dick", "Autore": "Hermann Melville"}
 ]
 
 # GET → recupera tutti i libri
