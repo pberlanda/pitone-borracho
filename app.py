@@ -14,7 +14,7 @@ libri = [
 # GET → recupera tutti i libri
 @app.route("/libri", methods=["GET"])
 def get_libri():
-    return jsonify(libri)
+    return jsonify(libri) # jsonify → funzione Flask API per trasformare oggetto Python in oggetto JSON
 
 # GET → recupera un libro per id
 @app.route("/libri/<int:id>", methods=["GET"])
